@@ -195,7 +195,7 @@ Cliente (Postman / Navegador)
 ### Captura — Diagrama de Arquitectura
 
 
-![diagrama arquitectura](./capturas/diag.png)
+![diagrama arquitectura](./Capturas/diag.png)
 
 ---
 
