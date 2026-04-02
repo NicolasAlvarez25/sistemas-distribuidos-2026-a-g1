@@ -73,17 +73,17 @@ El Tech Lead del equipo (Yeison Scarpeta) creó y configuró el repositorio ofic
 ### Captura — Repositorio en GitHub
 
 
-![repositorio github](./capturas/repoprincipal.png)
+![repositorio github](./Capturas/repoprincipal.png)
 
 ### Captura — Ramas configuradas
 
 
-![ramas github](./capturas/ramas.png)
+![ramas github](./Capturas/ramas.png)
 
 ### Captura — README del proyecto
 
 
-![readme github](./capturas/readmerepo.png)
+![readme github](./Capturas/readmerepo.png)
 
 ---
 
