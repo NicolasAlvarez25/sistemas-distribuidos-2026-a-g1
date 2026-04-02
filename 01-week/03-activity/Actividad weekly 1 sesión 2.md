@@ -42,7 +42,7 @@ git config --global user.email
 ### Captura — Verificación de Git configurado
 
 
-![git config](./capturas/gitconfig.png)
+![git config](./Capturas/gitconfig.png)
 
 ---
 
