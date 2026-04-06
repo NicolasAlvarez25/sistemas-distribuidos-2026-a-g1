@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+    networks:
+      - compose-network
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: contraseña123
+      POSTGRES_DB: demodb
+    volumes:
+      - datos:/var/lib/postgresql/data
+    networks:
+      - compose-network
+
+volumes:
+  datos:
+
+networks:
+  compose-network:
+    driver: bridge

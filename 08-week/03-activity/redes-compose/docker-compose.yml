@@ -1,0 +1,20 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+    networks:
+      - appnet
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: 123n
+      POSTGRES_DB: demodb
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge
