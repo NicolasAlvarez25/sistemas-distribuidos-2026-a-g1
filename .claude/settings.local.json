@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"01-week/01-session/00-pedagogical-agreements/1. FO-GD-DO-28 SYLLABUS SISTEMAS DISTRIBUIDOS.docx\" -t markdown)",
+      "Bash(unzip -q \"1. FO-GD-DO-28 SYLLABUS SISTEMAS DISTRIBUIDOS.docx\" -d syllabus_unpacked)",
+      "Bash(python3:*)",
+      "Bash(find . -type f -name \"*.txt\" ! -path \"*/node_modules/*\" ! -path \"*/.git/*\" -exec head -20 {} +)",
+      "Bash(find 01-week 02-week 03-week 04-week 05-week -maxdepth 3 -type f \\\\\\(-name *.pdf -o -name *.pptx -o -name *.xlsx \\\\\\))",
+      "Bash(while read:*)",
+      "Bash(do echo:*)",
+      "Bash(grep -E \"\\\\.\\(md|txt|pdf|pptx\\)$\" done)",
+      "Bash(npm list:*)",
+      "Bash(node -e \"require\\(''docx''\\); console.log\\(''docx ok''\\)\")",
+      "Bash(node -e \"require\\(''docx''\\); console.log\\(''ok''\\)\")",
+      "Bash(mkdir -p /tmp/docx-build)",
+      "Read(//tmp/**)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(node generate.js)",
+      "Bash(python \"C:/Users/ariel/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/80bb55ed-ad2b-417c-bd3f-cb2e1bf8f8f9/7b7219a5-e332-4b3c-a903-c85d5c22d336/skills/docx/scripts/office/validate.py\" \"C:/www/code-corhuila/repos_2026-a/sistemas-distribuidos-2026-a-g1/00-planning/documento-ejecutivo-sistemas-distribuidos.docx\")",
+      "Bash(pandoc \"C:/www/code-corhuila/repos_2026-a/sistemas-distribuidos-2026-a-g1/00-planning/documento-ejecutivo-sistemas-distribuidos.docx\" -t plain)",
+      "Bash(node -e \":*)"
+    ]
+  }
+}
